@@ -1,0 +1,89 @@
+{
+  "collection_summary": {
+    "academic": {
+      "count": 81,
+      "total_size_mb": 368.78,
+      "avg_size_mb": 4.55,
+      "sample_files": [
+        "arxiv_cs_AI_2507.16792v1_ChatChecker A Framework for Dialogue Sy.pdf",
+        "arxiv_cs_AI_2507.16795v1_Steering Out-of-Distribution Generalizat.pdf",
+        "arxiv_cs_AI_2507.16796v1_Uncertainty-Aware Knowledge Transformers.pdf"
+      ]
+    },
+    "government": {
+      "count": 3,
+      "total_size_mb": 2.59,
+      "avg_size_mb": 0.86,
+      "sample_files": [
+        "gov_form_000_i-485.pdf",
+        "gov_form_001_n-400.pdf",
+        "gov_form_002_i-130.pdf"
+      ]
+    },
+    "business": {
+      "count": 4,
+      "total_size_mb": 4.14,
+      "avg_size_mb": 1.03,
+      "sample_files": [
+        "business_forms_002_f1040.pdf",
+        "business_forms_003_f1120.pdf",
+        "business_fortune500_000_b4266e40-1de6-4a34-9dfb-8632b8.pdf"
+      ]
+    },
+    "technical": {
+      "count": 3,
+      "total_size_mb": 2.56,
+      "avg_size_mb": 0.85,
+      "sample_files": [
+        "tech_000_PUB100080.pdf",
+        "tech_001_NISTSP800-207.pdf",
+        "tech_002_rpi_DATA_2711_1p0_preliminary.pdf"
+      ]
+    },
+    "multilingual": {
+      "count": 50,
+      "total_size_mb": 17.11,
+      "avg_size_mb": 0.34,
+      "sample_files": [
+        "who_emergency_response_framework_en.pdf",
+        "who_executive_board_152_B152_16_ar.pdf",
+        "who_executive_board_152_B152_16_en.pdf"
+      ]
+    }
+  },
+  "total_files": 141,
+  "collection_date": "2025-07-24 02:30:42",
+  "recommended_actions": [
+    "Increase multilingual collection: 50/80 files",
+    "Increase business collection: 4/50 files",
+    "Increase technical collection: 3/40 files",
+    "Increase government collection: 3/30 files"
+  ],
+  "training_readiness": {
+    "academic": {
+      "current": 81,
+      "target": 60,
+      "readiness_percent": 100
+    },
+    "multilingual": {
+      "current": 50,
+      "target": 80,
+      "readiness_percent": 62.5
+    },
+    "business": {
+      "current": 4,
+      "target": 50,
+      "readiness_percent": 8.0
+    },
+    "technical": {
+      "current": 3,
+      "target": 40,
+      "readiness_percent": 7.5
+    },
+    "government": {
+      "current": 3,
+      "target": 30,
+      "readiness_percent": 10.0
+    }
+  }
+}
